@@ -1,0 +1,6861 @@
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+
+QEMU is a generic and open source machine emulator and virtualizer.
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+QEMU is a member of Software Freedom Conservancy.
+QEMU releases can be downloaded here: https://www.qemu.org/download/
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+Creating Accounts
+To help control spam, we have disabled account creation on this wiki.  To obtain an account, please contact a user with an existing wiki account and ask them to create an account for you with a dummy password.  Immediately change the password after first login.  If you need assistance, please ask on qemu-devel.
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Main_Page&oldid=9546"
+
+
+
+
+
+
+
+ This page was last edited on 9 July 2020, at 11:46.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute - QEMU
+CONTENT:
+Contribute - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Contents
+		move to sidebar
+hide
+
+
+
+
+
+Beginning
+
+
+
+
+
+1Project Infrastructure
+
+
+
+
+
+
+
+2Info for new Contributors
+
+
+
+
+
+
+
+3Student Outreach
+
+
+
+
+
+
+
+4Development
+
+
+
+
+
+
+
+5Subpages
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Toggle the table of contents
+					
+Contribute
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute - QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+
+Project Infrastructure
+Mainline qemu.git source repository (for developer repositories see the MAINTAINERS file).
+Mailing lists: savannah.nongnu.org
+IRC: #qemu on irc.oftc.net
+Bug tracker: GitLab Issues
+Continuous Integration: GitLab CI, Patchew and Travis
+Wiki: this website
+Phone call: Scheduled for Tuesdays on as-needed basis for agenda topics raised on mailing list.  Contact Alex Bennée for dial-in details or refer to this calendar invite.  To find the time in your location, use:
+date -d 'TZ="America/New_York" Tuesday 09:00 am'
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute - QEMU
+CONTENT:
+If you need to find out or change who's responsible for a particular bit of our infrastructure AdminContacts has this information.
+ToDo lists
+Info for new Contributors
+The Development Process
+How to report a bug
+Getting started for developers
+How to submit a patch
+How to submit a trivial patch
+Bite Sized Tasks: Introductory task list for new contributors
+Contributor FAQ
+See also Jeff Cody's presentation "New to QEMU: A Developer's Guide to Contributing" on YouTube for some information about how to get started.
+
+Student Outreach
+The QEMU project participates in both the Google Summer of Code and the Outreachy programs. See the respective pages for details of project ideas and deadlines for submissions.
+
+Development
+The planning pages is where you can find important dates for the next release.
+The features page provides a description of in-progress features.
+
+Subpages
+Here are all the sub-pages for contribute
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute - QEMU
+CONTENT:
+Subpages
+Here are all the sub-pages for contribute
+
+Contribute/BiteSizedTasks
+Contribute/DevelopmentProcess
+Contribute/FAQ
+Contribute/MailingLists
+Contribute/MailingLists/Creation
+Contribute/SpellCheck
+Contribute/StartHere
+Contribute/SubmitAPatch
+Contribute/SubmitAPullRequest
+Contribute/TrivialPatches
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Contribute&oldid=12353"
+
+
+
+
+
+
+
+ This page was last edited on 20 October 2025, at 13:42.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+
+QEMU is a generic and open source machine emulator and virtualizer.
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+QEMU is a member of Software Freedom Conservancy.
+QEMU releases can be downloaded here: https://www.qemu.org/download/
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+Creating Accounts
+To help control spam, we have disabled account creation on this wiki.  To obtain an account, please contact a user with an existing wiki account and ask them to create an account for you with a dummy password.  Immediately change the password after first login.  If you need assistance, please ask on qemu-devel.
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Main_Page&oldid=9546"
+
+
+
+
+
+
+
+ This page was last edited on 9 July 2020, at 11:46.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Search - QEMU
+CONTENT:
+Search - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+Special pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+
+
+
+SearchContent pagesMultimediaEverythingAdvanced
+Retrieved from "https://wiki.qemu.org/Special:Search"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Donations
+Download
+Support
+Contribute
+Docs
+Wiki
+Blog
+
+
+
+
+
+
+QEMU
+A generic and open source machine emulator and virtualizer
+
+
+
+
+
+Features
+
+
+
+
+
+
+
+Full-system emulation
+Run operating systems for any machine, on any supported architecture
+
+
+
+
+
+User-mode emulation
+Run programs for another Linux/BSD target, on any supported architecture
+
+
+
+
+
+Virtualization
+Run KVM and Xen virtual machines with near native performance
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest releases
+
+
+
+10.2.0-rc2
+  Dec 2nd 2025signature — changes
+10.1.2
+  Oct 20th 2025signature — changes
+10.0.6
+  Oct 20th 2025signature — changes
+9.2.4
+  May 26th 2025signature — changes
+7.2.21
+  Oct 8th 2025signature — changes
+
+Full list of releases
+
+
+
+
+
+
+Advent calendar
+Blog planet
+KVM
+Libguestfs
+Libvirt
+Xen
+
+
+
+page source
+
+
+		QEMU is a member of Software Freedom Conservancy
+
+
+		QEMU has sponsors
+
+
+Website licenses
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: License - QEMU
+CONTENT:
+License - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+License
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+The following points clarify the QEMU licenses:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: License - QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+The following points clarify the QEMU licenses:
+
+QEMU as a whole is released under the GNU General Public License, version 2.
+Parts of QEMU have specific licenses which are compatible with the GNU General Public License, version 2. Hence each source file contains its own licensing information.  Source files with no licensing information are released under the GNU General Public License, version 2 or (at your option) any later version. As of July 2013, contributions under version 2 of the GNU General Public License (and no later version) are only accepted for the following files or directories: bsd-user/, linux-user/, hw/misc/vfio.c, hw/xen/xen_pt*.
+The Tiny Code Generator (TCG) is released under the BSD license (see license headers in files).
+QEMU is a trademark of Fabrice Bellard.
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=License&oldid=4445"
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: License - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=License&oldid=4445"
+
+
+
+
+
+
+
+ This page was last edited on 24 November 2014, at 10:24.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+
+QEMU is a generic and open source machine emulator and virtualizer.
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+QEMU is a member of Software Freedom Conservancy.
+QEMU releases can be downloaded here: https://www.qemu.org/download/
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+Creating Accounts
+To help control spam, we have disabled account creation on this wiki.  To obtain an account, please contact a user with an existing wiki account and ask them to create an account for you with a dummy password.  Immediately change the password after first login.  If you need assistance, please ask on qemu-devel.
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Main_Page&oldid=9546"
+
+
+
+
+
+
+
+ This page was last edited on 9 July 2020, at 11:46.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Reporting a bug - QEMU
+CONTENT:
+Reporting a bug - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Download
+Support
+Contribute
+Docs
+Wiki
+Blog
+
+
+
+
+
+
+Reporting a bug
+
+Bugs can be filed at our
+bug tracker, which is hosted
+on GitLab. Note: If you’ve got a problem with how your Linux distribution
+packages QEMU, please use the bug tracker from your distro instead.
+When submitting a bug report, please try to do the following:
+
+
+Include the QEMU release version or the git commit hash into the description, so that it is later still clear in which version you have found the bug.  Reports against the latest release or even the latest development tree are usually acted upon faster.
+
+
+Include the full command line used to launch the QEMU guest.
+
+
+Reproduce the problem directly with a QEMU command-line.  Avoid frontends and management stacks, to ensure that the bug is in QEMU itself and not in a frontend.
+
+
+Include information about the host and guest (operating system, version, 32/64-bit).
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Reporting a bug - QEMU
+CONTENT:
+Include information about the host and guest (operating system, version, 32/64-bit).
+
+
+QEMU does not use GitLab merge requests; patches are sent to the mailing list according to QEMU’s patch submissions guidelines.
+Do NOT report security issues (or other bugs, too) as “confidential” bugs in the
+bug tracker.  QEMU has a security process for issues
+that should be reported in a non-public way instead.
+For problems with KVM in the kernel, use the kernel bug tracker instead;
+the KVM wiki has the details.
+
+
+
+
+
+Advent calendar
+Blog planet
+KVM
+Libguestfs
+Libvirt
+Xen
+
+
+
+page source
+
+
+		QEMU is a member of Software Freedom Conservancy
+
+
+		QEMU has sponsors
+
+
+Website licenses
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: N/A
+CONTENT:
+/* This file is the Web entry point for MediaWiki's ResourceLoader:
+   . In this request,
+   no modules were requested. Max made me put this here. */
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Documentation - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Contents
+		move to sidebar
+hide
+
+
+
+
+
+Beginning
+
+
+
+
+
+1How do I...
+
+
+					Toggle How do I... subsection
+				
+
+
+
+
+1.1For users
+
+
+
+
+
+
+
+1.2For developers
+
+
+
+
+
+
+
+
+
+2Technical Documentation
+
+
+
+
+
+
+
+3External Sites
+
+
+					Toggle External Sites subsection
+				
+
+
+
+
+3.1Other efforts
+
+
+
+
+
+
+
+3.2Blogs
+
+
+
+
+
+
+
+
+
+4All Documentation Pages on Wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Toggle the table of contents
+					
+Documentation
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+The QEMU website has a Documentation page with pointers to the current actively maintained documentation including rendered versions of the user manual and selection of the developer documentation. More free form documentation can be found here on the wiki.
+
+
+How do I...
+For users
+All user documentation pages
+
+QEMU Main Documentation (HTML generated from QEMU sources, updated frequently)
+Set up Networking
+Setting up VirtFS (9P Sharing over Virtio) between the guest and host
+Create a Snapshot
+Ubuntu Development Ports - details on qemu-<arch> usage, chroot set up, system emulation and cross compilation
+Compiling with qemu-user chroot - details on tuning binfmt_misc with magic patterns for making alien binaries run from the shell with silent invocation of QEMU
+Use vhost-user with OVS/DPDK as backend
+Set up storage for live migration
+Replacements for removed features
+Building QEMU from source:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+on Linux hosts
+on macOS hosts
+on BSD hosts (includes info on setting up a BSD VM on a Linux host)
+for Windows (natively or cross-built on Linux)
+For users that target for a specific platform:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Running ARM guests on QEMU
+Running POWER / sPAPR / pseries guests on QEMU
+Running PowerPC Macintosh / Linux guests on QEMU
+Running m68k Macintosh / Linux guests on QEMU
+Running SPARC guests on QEMU
+Running ALPHA guests on QEMU
+Running OpenRISC guests on QEMU
+Running RISC-V guests on QEMU
+Debian on an emulated MIPS(EL) machine based upon some Debian Linux host
+Windows XP on QEMU-x86 based upon some Linux host (brief but good hints on the guest set up)
+Windows 2000 on QEMU-x86
+FreeDos on QEMU-x86 based upon some Linux host (concentrates on host details)
+For developers
+Get started as a QEMU developer
+Debug QEMU
+There is a "developer's guide" in docs/devel, though it has significant gaps. You can see a rendered version of it on readthedocs
+The wiki has a list of all wiki pages marked as developer documentation
+Note that much of QEMU's internals are documented only in comments in the source code, or not at all.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Technical Documentation
+The docs/ directory in the QEMU tree contains more user and developer documentation.
+Hardware Manuals
+Instruction Set Manuals (Assembly Language)
+PC Platform
+External Sites
+Other efforts
+QEMU documentation on wikibooks.org
+QEMU-Buch / QEMU-Book - A quite versatile book on QEMU, provided in German and English (partly as a google translation), but likely rather outdated nowadays.
+Blogs
+Official Blog
+Virt Tools Planet
+All Documentation Pages on Wiki
+Documentation/9p
+Documentation/9p root fs
+Documentation/9psetup
+Documentation/Architecture
+Documentation/CreateSnapshot
+Documentation/Debugging
+Documentation/Debugging with Valgrind
+Documentation/GettingStartedDevelopers
+Documentation/GitSubmodules
+Documentation/GuestOperatingSystems
+Documentation/GuestOperatingSystems/MacOS10.4
+Documentation/GuestOperatingSystems/MacOS10.8
+Documentation/GuestOperatingSystems/MacOS9
+Documentation/GuestOperatingSystems/Ubuntu(ppc)
+Documentation/GuestOperatingSystems/Windows7
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Documentation/GuestOperatingSystems/Ubuntu(ppc)
+Documentation/GuestOperatingSystems/Windows7
+Documentation/GuestOperatingSystems/Windows95
+Documentation/GuestOperatingSystems/WindowsNT4.0(x86)
+Documentation/HardwareManuals
+Documentation/ISAManuals
+Documentation/KQemu
+Documentation/Migration with shared storage
+Documentation/Networking
+Documentation/Networking/NAT
+Documentation/Platforms
+Documentation/Platforms/68k
+Documentation/Platforms/ARM
+Documentation/Platforms/Alpha
+Documentation/Platforms/CRIS
+Documentation/Platforms/HPPA
+Documentation/Platforms/LatticeMico32
+Documentation/Platforms/MIPS
+Documentation/Platforms/MicroBlaze
+Documentation/Platforms/Moxie
+Documentation/Platforms/Nios2
+Documentation/Platforms/OpenRISC
+Documentation/Platforms/PC
+Documentation/Platforms/POWER
+Documentation/Platforms/PowerNV
+Documentation/Platforms/PowerPC
+Documentation/Platforms/RISCV
+Documentation/Platforms/S390X
+Documentation/Platforms/SH4
+Documentation/Platforms/SPARC
+Documentation/Platforms/TileGX
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Documentation/Platforms/SH4
+Documentation/Platforms/SPARC
+Documentation/Platforms/TileGX
+Documentation/Platforms/TriCore
+Documentation/Platforms/Unicore32
+Documentation/Platforms/Xtensa
+Documentation/Platforms/m68k
+Documentation/QMP
+Documentation/QOMConventions
+Documentation/TCG
+Documentation/TCG/backend-ops
+Documentation/TCG/frontend-ops
+Documentation/vhost-user-ovs-dpdk
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Documentation - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=Documentation&oldid=11068"
+
+
+
+
+
+
+
+ This page was last edited on 9 January 2023, at 07:28.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+
+QEMU is a generic and open source machine emulator and virtualizer.
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+QEMU is a member of Software Freedom Conservancy.
+QEMU releases can be downloaded here: https://www.qemu.org/download/
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+Creating Accounts
+To help control spam, we have disabled account creation on this wiki.  To obtain an account, please contact a user with an existing wiki account and ask them to create an account for you with a dummy password.  Immediately change the password after first login.  If you need assistance, please ask on qemu-devel.
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Main_Page&oldid=9546"
+
+
+
+
+
+
+
+ This page was last edited on 9 July 2020, at 11:46.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+Contribute/MailingLists - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contribute/MailingLists
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+QEMU developers mailing list
+QEMU stable mailing list
+QEMU trivial patch mailing list
+QEMU users mailing list
+Subsystem Specific Lists
+These exist to make it a little easier to follow subsystem specific patches. You should however continue to CC qemu-devel so your series gets wide visibility.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+QEMU ARM mailing list
+QEMU block devices mailing list
+QEMU PowerPC mailing list
+QEMU RISC-V mailing list
+QEMU s390x mailing list
+If a subsystem maintainer thinks that a new mailing list for their subsystem would make life easier, we're happy to create one -- mail qemu-devel to suggest it (ideally cc'ing the people listed as Savannah project admins in our AdminContacts page, as they are the ones with the ability to make the change).
+If you are a Savannah project admin, you may want the technical notes on how to create and configure a new list.
+
+Access via lore.kernel.org
+The qemu-devel mailing list is also archived via public-inbox on https://lore.kernel.org/qemu-devel/ and accessible via NNTP at nntp.lore.kernel.org (newsgroup org.nongnu.qemu-devel).
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Contribute/MailingLists&oldid=8666"
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=Contribute/MailingLists&oldid=8666"
+
+
+
+
+
+
+
+ This page was last edited on 20 June 2019, at 10:01.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+Security Process - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Download
+Support
+Contribute
+Docs
+Wiki
+Blog
+
+
+
+
+
+
+Security Process
+
+Please report any suspected security issue in QEMU to the security mailing
+list at:
+
+<qemu-security@nongnu.org>
+
+How to report an issue:
+
+Please include as many details as possible in the issue report.
+Ex:
+    
+QEMU version, upstream commit/tag
+Host & Guest architecture x86/Arm/PPC, 32/64 bit etc.
+Affected code area/snippets
+Stack traces, crash details
+Malicious inputs/reproducer steps etc.
+Any configurations/settings required to trigger the issue.
+
+
+
+Please share the QEMU command line used to invoke a guest VM.
+
+Please specify whom to acknowledge for reporting this issue.
+
+How we respond:
+
+
+Process of handling security issues comprises following steps:
+0) Acknowledge:
+
+A non-automated response email is sent to the reporter(s) to acknowledge
+the reception of the report. (60 day’s counter starts here)
+
+1) Triage:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+1) Triage:
+
+Examine the issue details and confirm whether the issue is genuine
+Validate if it can be misused for malicious purposes
+Determine its worst case impact and severity
+[Low/Moderate/Important/Critical]
+
+2) Response:
+
+Negotiate embargo timeline (if required, depending on severity)
+Request a CVE and open an upstream
+bug
+Create an upstream fix patch annotated with
+        
+CVE-ID
+Link to an upstream bugzilla
+Reported-by, Tested-by etc. tags
+
+
+Once the patch is merged, close the upstream bug with a link to the
+commit
+        
+Fixed in: <commit hash/link>
+
+
+
+
+
+Above security lists are operated by select analysts, maintainers and/or
+representatives from downstream communities.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+List members follow a responsible disclosure policy. Any non-public
+information you share about security issues, is kept confidential within
+members of the QEMU security team and a minimal supporting staff in their
+affiliated companies. Such information will not be disclosed to third party
+organisations/individuals without prior permission from the reporter(s).
+
+
+We aim to process security issues within maximum of 60 days. That is not
+to say that issues will remain private for 60 days, nope. After the triaging
+step above
+
+If severity of the issue is sufficiently low, an upstream public bug
+will be created immediately.
+If severity of the issue requires co-ordinated disclosure at a future
+date, then the embargo process below is followed, and upstream bug will
+be opened at the end of the embargo period.
+
+This will allow upstream contributors to create, test and track fix patch(es).
+
+
+Publication embargo
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+Publication embargo
+
+
+If a security issue is reported that is not already public and its severity
+requires coordinated disclosure, then an embargo date will be set and
+communicated to the reporter(s).
+
+
+Embargo periods will be negotiated by mutual agreement between reporter(s),
+members of the security list and other relevant parties to the problem.
+The preferred embargo period is upto 2
+weeks.
+However, longer embargoes may be negotiated if the severity of the issue
+requires it.
+
+
+Members of the security list agree not to publicly disclose any details of
+an embargoed security issue until its embargo date expires.
+
+
+CVE allocation
+Each security issue is assigned a CVE number.
+The CVE number is allocated by one of the vendor security engineers on the
+security list.
+When to contact the QEMU Security List
+You should contact the Security List if:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+You think there may be a security vulnerability in QEMU.
+You are unsure about how a known vulnerability affects QEMU.
+You can contact us in English. We are unable to respond in other languages.
+
+When not to contact the QEMU Security List
+
+You need assistance in a language other than English.
+You require technical assistance (for example, “how do I configure QEMU?”).
+You need help upgrading QEMU due to security alerts.
+Your issue is not security related.
+
+How impact and severity of a bug is decided
+Security criterion:
+    -> https://www.qemu.org/docs/master/system/security.html
+All security issues in QEMU are not equal. Based on the parts of the QEMU
+sources wherein the bug is found, its impact and severity could vary.
+In particular, QEMU is used in many different scenarios; some of them assume
+that the guest is trusted, some of them don’t. General considerations to triage
+QEMU issues and decide whether a configuration is security sensitive include:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+Is there any feasible way for a malicious party to exploit this flaw and
+cause real damage? (e.g. from a guest or via downloadable images)
+Does the flaw require access to the management interface? Would the
+management interface be accessible in the scenario where the flaw could cause
+real damage?
+Is QEMU used in conjunction with a hypervisor (as opposed to TCG binary
+translation)?
+Is QEMU used to offer virtualised production services, as opposed to usage
+as a development platform?
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+Whenever some or all of these questions have negative answers, what appears to
+be a major security flaw might be considered of low severity because it could
+only be exercised in use cases where QEMU and everything interacting with it is
+trusted.
+For example, consider upstream commit 9201bb9 “sdhci.c: Limit the maximum
+block size”, an of out of
+bounds (OOB) memory access (ie. buffer overflow) issue that was found and fixed
+in the SD Host Controller emulation (hw/sd/sdhci.c).
+On the surface, this bug appears to be a genuine security flaw, with potentially
+severe implications. But digging further down, there are only two ways to use
+SD Host Controller emulation, one is via ‘sdhci-pci’ interface and the other
+is via ‘generic-sdhci’ interface.
+Of these two, the ‘sdhci-pci’ interface had actually been disabled by default
+in the upstream QEMU releases (commit 1910913 “sdhci: Make device “sdhci-pci”
+unavailable with -device”
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+unavailable with -device”
+at the time the flaw was reported; therefore, guests could not possibly use
+‘sdhci-pci’ for any purpose.
+The ‘generic-sdhci’ interface, instead, had only one user in ‘Xilinx Zynq
+Baseboard emulation’ (hw/arm/xilinx_zynq.c). Xilinx Zynq is a programmable
+systems on chip (SoC) device. While QEMU does emulate this device, in practice
+it is used to facilitate cross-platform developmental efforts, i.e. QEMU is
+used to write programs for the SoC device. In such developer environments, it
+is generally assumed that the guest is trusted.
+And thus, this buffer overflow turned out to be a security non-issue.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Security Process - QEMU
+CONTENT:
+Advent calendar
+Blog planet
+KVM
+Libguestfs
+Libvirt
+Xen
+
+
+
+page source
+
+
+		QEMU is a member of Software Freedom Conservancy
+
+
+		QEMU has sponsors
+
+
+Website licenses
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: N/A
+CONTENT:
+QEMU (en)QEMU (en)https://wiki.qemu.org/favicon.icohttps://wiki.qemu.org/Special:Search
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Special pages - QEMU
+CONTENT:
+Special pages - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+Special pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+Special pages
+
+
+
+
+
+
+
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Special pages - QEMU
+CONTENT:
+Maintenance reports
+Broken redirects
+Dead-end pages
+Double redirects
+Long pages
+Oldest pages
+Orphaned pages
+Pages with the fewest revisions
+Pages without language links
+Protected pages
+Protected titles
+Short pages
+Uncategorized categories
+Uncategorized files
+Uncategorized pages
+Uncategorized templates
+Unused categories
+Unused files
+Unused templates
+Wanted categories
+Wanted files
+Wanted pages
+Wanted templates
+Lists of pages
+All pages
+All pages with prefix
+Categories
+External links search
+List of redirects
+Pages with a page property
+Search
+Tracking categories
+Login / create account
+Log in
+Users and rights
+Active users list
+Autoblocks
+Blocked users
+Bot passwords
+Change credentials
+Grants
+Password policies
+Preferences
+Remove credentials
+Reset tokens
+User contributions
+User group rights
+User list
+User rights
+Recent changes and logs
+Gallery of new files
+Logs
+New pages
+Recent changes
+Related changes
+Valid change tags
+Watchlist
+Media reports and uploads
+File list
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Special pages - QEMU
+CONTENT:
+Recent changes
+Related changes
+Valid change tags
+Watchlist
+Media reports and uploads
+File list
+List of files with duplicates
+MIME search
+Media statistics
+Search for duplicate files
+Data and tools
+API sandbox
+Book sources
+Expand templates
+Statistics
+System messages
+Version
+Redirecting special pages
+Delete a page
+Differences
+Edit a page
+New section
+Page history
+Page info
+Permanent link
+Protect a page
+Purge
+Random page
+Random page in category
+Random redirect
+Random root page
+Redirect by file, user, page, revision, or log ID
+High use pages
+Most linked-to categories
+Most linked-to files
+Most linked-to pages
+Most transcluded pages
+Pages with the most categories
+Pages with the most interwikis
+Pages with the most revisions
+Page tools
+Compare pages
+Export pages
+What links here
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Special pages - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/Special:SpecialPages"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Pages that link to "Main Page" - QEMU
+CONTENT:
+Pages that link to "Main Page" - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+Special pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+Pages that link to "Main Page"
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+← Main Page
+What links here⧼whatlinkshere-target⧽Page:⧼whatlinkshere-ns⧽Namespace:all(Main)TalkUserUser talkQEMUQEMU talkFileFile talkMediaWikiMediaWiki talkTemplateTemplate talkHelpHelp talkCategoryCategory talkInvert selection⧼whatlinkshere-filter⧽Hide transclusionsHide linksHide redirects
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Pages that link to "Main Page" - QEMU
+CONTENT:
+Go
+The following pages link to Main Page:
+Displayed 4 items.
+View (previous 50  |  next 50) (20 | 50 | 100 | 250 | 500)News (redirect page) ‎ (← links)
+Contribute  ‎ (← links)
+Index.html (redirect page) ‎ (← links)
+QEMU:About (redirect page) ‎ (← links)
+View (previous 50  |  next 50) (20 | 50 | 100 | 250 | 500)
+Retrieved from "https://wiki.qemu.org/Special:WhatLinksHere/Main_Page"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Recent changes - QEMU
+CONTENT:
+Recent changes - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+AtomSpecial pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help
+
+Recent changes
+
+
+
+
+
+
+
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+
+
+
+
+Track the most recent changes to the wiki on this page.
+
+
+Recent changes options
+Show last 50 | 100 | 250 | 500 changes in last 1 | 3 | 7 | 14 | 30 daysHide registered users | Hide anonymous users | Hide my edits | Show bots | Hide minor editsShow new changes starting from 13:37, 6 December 2025
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Recent changes - QEMU
+CONTENT:
+Namespace:
+all
+(Main)
+Talk
+User
+User talk
+QEMU
+QEMU talk
+File
+File talk
+MediaWiki
+MediaWiki talk
+Template
+Template talk
+Help
+Help talk
+Category
+Category talk
+  Invert selection  Associated namespaceTag filter:Blanking
+Manual revert
+New redirect
+Removed redirect
+Replaced
+Reverted
+Undo 
+
+List of abbreviations:
+N
+This edit created a new page (also see list of new pages)
+m
+This is a minor edit
+b
+This edit was performed by a bot
+(±123)
+The page size changed by this number of bytes
+
+4 December 2025
+     09:37  Planning/10.2‎ diffhist  +43‎  Mjt talk contribs (reflect real dates of release candidates which are happened to date)
+     09:19  Planning/7.2‎ diffhist  +36‎  Mjt talk contribs (move v7.2.22 release date by 2 days)
+3 December 2025
+     06:28  Planning/10.1‎ diffhist  +36‎  Mjt talk contribs (move v10.1.3 release dates by 2 days due to delays with 11.0-rc)
+     06:27  Planning/10.0‎ diffhist  +36‎  Mjt talk contribs (move v10.0.7 release dates by 2 days due to delays with 11.0-rc)
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Recent changes - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/Special:RecentChanges"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Log in - QEMU
+CONTENT:
+Log in - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+Special pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log in
+
+
+
+
+
+
+
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+
+
+
+
+
+UsernameUse secure connection
+Password
+ Keep me logged in
+Log in
+Help with logging in
+
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/Special:UserLogin"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+From QEMU
+
+QEMU is a generic and open source machine emulator and virtualizer.
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+QEMU is a member of Software Freedom Conservancy.
+QEMU releases can be downloaded here: https://www.qemu.org/download/
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: QEMU
+CONTENT:
+Creating Accounts
+To help control spam, we have disabled account creation on this wiki.  To obtain an account, please contact a user with an existing wiki account and ask them to create an account for you with a dummy password.  Immediately change the password after first login.  If you need assistance, please ask on qemu-devel.
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Main_Page&oldid=9546"
+
+
+
+
+
+
+
+ This page was last edited on 9 July 2020, at 11:46.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Download QEMU - QEMU
+CONTENT:
+Download QEMU - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Download
+Support
+Contribute
+Docs
+Wiki
+Blog
+
+
+
+
+
+
+Download QEMU
+
+
+
+Source code
+Linux
+macOS
+Windows
+
+
+
+Source code
+
+Grab the source code for the latest releases and compile it yourself!
+	Detailed compilation instructions can be found in the wiki for
+		Linux,
+		Win32 and
+		macOS.
+
+
+10.2.0-rc2
+  Dec 2nd 2025signature — changes
+10.1.2
+  Oct 20th 2025signature — changes
+10.0.6
+  Oct 20th 2025signature — changes
+9.2.4
+  May 26th 2025signature — changes
+7.2.21
+  Oct 8th 2025signature — changes
+
+Full list of releases
+
+or stay on the bleeding edge with the
+	   git repository!
+Build instructions
+To download and build QEMU 10.2.0-rc2:
+wget https://download.qemu.org/qemu-10.2.0-rc2.tar.xz
+tar xvJf qemu-10.2.0-rc2.tar.xz
+cd qemu-10.2.0-rc2
+./configure
+make
+
+Source tarballs for official QEMU releases are signed by the release
+    manager using
+        this GPG public key.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Download QEMU - QEMU
+CONTENT:
+pub   rsa2048 2013-10-18 [SC]
+      CEACC9E15534EBABB82D3FA03353C9CEF108B584
+uid           [ unknown] Michael Roth 
+uid           [ unknown] Michael Roth 
+uid           [ unknown] Michael Roth 
+sub   rsa2048 2013-10-18 [E]
+
+To download and build QEMU from git:
+git clone https://gitlab.com/qemu-project/qemu.git
+cd qemu
+./configure
+make
+
+The latest development happens on the master
+	branch. The stable trees are located in branches named
+	stable-X.YY branch, where X.YY is the release
+	version.
+
+
+
+Linux
+
+QEMU is packaged by most Linux distributions:
+
+
+Arch: pacman -S qemu
+
+Debian/Ubuntu:
+
+For full system emulation: apt-get install qemu-system
+For emulating Linux binaries: apt-get install qemu-user-static
+
+
+
+Fedora: dnf install @virtualization
+
+
+Gentoo: emerge --ask app-emulation/qemu
+
+
+RHEL/CentOS: yum install qemu-kvm
+
+SUSE: zypper install qemu
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Download QEMU - QEMU
+CONTENT:
+RHEL/CentOS: yum install qemu-kvm
+
+SUSE: zypper install qemu
+
+Note: On most distributions, the above commands will install meta-packages
+that pull in other packages with emulator binaries for all available
+targets. Have a look at the package list of your distribution first if you
+only need a subset of the targets.
+
+
+
+macOS
+
+QEMU can be installed from Homebrew:
+brew install qemu
+QEMU can be installed from MacPorts:
+sudo port install qemu
+QEMU requires the most recent macOS version that is currently available.
+Support for the last previous version will be dropped two years after the
+current version has been released or when Apple drops support for it,
+whatever comes first.
+
+
+
+Windows
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Download QEMU - QEMU
+CONTENT:
+Windows
+
+Stefan Weil provides binaries and installers for
+both 32-bit and
+64-bit Windows.
+MSYS2:
+QEMU can be installed using MSYS2 also. MSYS2 uses
+pacman to manage packages. First,
+follow the MSYS2 installation procedure. Then update
+the packages with pacman -Syu command. Now choose the proper command for your
+system as following:
+
+For 64 bit Windows 7 or above (in MINGW64):
+
+
+pacman -S mingw-w64-x86_64-qemu
+
+
+For 64 bit Windows 8.1 or above (in UCRT64):
+
+
+pacman -S mingw-w64-ucrt-x86_64-qemu
+
+32 bit Windows is not supported.
+Some QEMU related tools can be found in separate packages. Please see the
+MSYS2 mingw-w64-qemu page
+for more information. Any QEMU package related issues can be found in
+MINGW-packages
+repository.
+
+
+Version numbering
+
+
+  Since version 3.0.0, QEMU uses a time based version numbering scheme:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Download QEMU - QEMU
+CONTENT:
+Version numbering
+
+
+  Since version 3.0.0, QEMU uses a time based version numbering scheme:
+  
+
+major
+incremented by 1 for the first release of the year
+minor
+reset to 0 with every major increment, otherwise incremented by 1 for each release from git master
+micro
+always 0 for releases from git master, incremented by 1 for each stable branch release
+
+
+    The implication of this is that changes in major version number
+    do not have any bearing on the scope of changes
+    included in the release. Non-backward compatible changes may be made
+    in any master branch release, provided they have followed the
+    deprecation
+    policy which calls for warnings to be emitted for a minimum of two
+    releases prior to the change.
+  
+
+
+
+
+
+
+
+Advent calendar
+Blog planet
+KVM
+Libguestfs
+Libvirt
+Xen
+
+
+
+page source
+
+
+		QEMU is a member of Software Freedom Conservancy
+
+
+		QEMU has sponsors
+
+
+Website licenses
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Testing - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Contents
+		move to sidebar
+hide
+
+
+
+
+
+Beginning
+
+
+
+
+
+1Continuous Integration
+
+
+
+
+
+
+
+2Tests included in the QEMU source
+
+
+					Toggle Tests included in the QEMU source subsection
+				
+
+
+
+
+2.1make check
+
+
+
+
+
+
+
+2.2make check-tcg
+
+
+
+
+
+
+
+2.3qemu-iotests
+
+
+
+
+
+
+
+2.4make docker
+
+
+
+
+
+
+
+2.5device-crash-test script
+
+
+
+
+
+
+
+2.6make check-functional
+
+
+
+
+
+
+
+
+
+3System emulation
+
+
+
+
+
+
+
+4User mode emulation
+
+
+
+
+
+
+
+5Dynamic code analysis
+
+
+					Toggle Dynamic code analysis subsection
+				
+
+
+
+
+5.1Valgrind
+
+
+
+
+
+
+
+5.2clang UBSan
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Toggle Dynamic code analysis subsection
+				
+
+
+
+
+5.1Valgrind
+
+
+
+
+
+
+
+5.2clang UBSan
+
+
+
+
+
+
+
+
+
+6Static code analysis
+
+
+					Toggle Static code analysis subsection
+				
+
+
+
+
+6.1ccc-analyzer (clang)
+
+
+
+
+
+
+
+6.2smatch
+
+
+
+
+
+
+
+6.3Coverity
+
+
+
+
+
+
+
+
+
+7Avocado and Avocado-VT
+
+
+
+
+
+
+
+8Testing related meetings
+
+
+
+
+
+
+
+9See Also
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Toggle the table of contents
+					
+Testing
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+
+Continuous Integration
+Continuous Integration for the project is a distributed affair spread
+across a number of public CI services. However our primary CI loop is
+run on GitLab with other services filling in gaps in it's coverage.
+There is a strong preference for tests to be directly runable with our
+existing make infrastructure. The public services to run tests all
+offer free tier accounts for FLOSS developers so people can run their
+own tests with the same CI setup although generally these need public
+repositories.
+
+
+
+System
+
+Focus
+
+Status
+
+
+GitLab CI
+
+Majority of CI testing (builds x86 & cross), various check targets
+
+https://gitlab.com/qemu-project/qemu/badges/master/pipeline.svg [1]
+
+
+Cirrus CI
+
+FreeBSD, MacOS and Windows MSYS2 compile and test
+
+https://api.cirrus-ci.com/github/qemu/qemu.svg [2]
+
+
+Travis
+
+non-x86 hosts, mostly deprecated
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+https://api.cirrus-ci.com/github/qemu/qemu.svg [2]
+
+
+Travis
+
+non-x86 hosts, mostly deprecated
+
+https://api.travis-ci.com/qemu/qemu.png?branch=master&file=qemu.png [3]
+
+
+Coverity
+
+Static analysis
+
+https://scan.coverity.com/projects/378/badge.svg?flat=1&foo=qemu.svg [4]
+
+
+Patchew
+
+Apply and test patches as they are sent on the mailing list.
+
+https://patchew.org/QEMU/badge.svg [5]
+
+
+Documentation
+
+Build the RST portions of the doc/ subtree
+
+https://readthedocs.org/projects/qemu/badge/?version=latest&foo=qemu.svg [6]
+
+Tests included in the QEMU source
+QEMU includes a test suite comprising:
+
+unit tests for library code
+QTest-based tests, which inject predefined stimuli into the device emulation code.
+qemu-iotests, a regression test suite for the block layer code.
+Run make check-help for a full breakdown of the various sub-checks that can be run. We also have a documentation in the source tree.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+make check
+The unit tests and QTest-based can be run with "make check". Use "make check-help" to see a list of other available test targets and parameters (for example, you can use "make check SPEED=slow V=1" for a verbose, more thorough test run). These unit tests are used in our continuous integration systems, based on Travis and Patchew.
+Currently make check includes the following:
+
+check-qapi-schema
+check-unit
+check-qtest
+check-decodetree
+check-block
+make check-tcg
+This will attempt to build tests to be run under QEMU for all the enabled guest architectures. You can either supply cross compilers to configure or will attempt to fall-back to precanned docker images with them.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+qemu-iotests
+Main article: Testing/QemuIoTests
+A subset of the qemu-iotests is run from the toplevel build directory with make check-block. A full version of the testsuite, taking around half an hour to run, is run with make check-block SPEED=thorough. For full control over the iotests, cd tests/qemu-iotests/ and run ./check --help for further information.
+
+make docker
+The build system supports a number of Docker build targets which allow the source tree to be built and tested on a number of different Linux distributions regardless of your host. See Testing/DockerBuild for more information.
+
+device-crash-test script
+The scripts/device-crash-test script can be used to run QEMU with multiple
+-machine and -device combinations, to look for obvious crashes machine or
+device code.
+
+make check-functional
+This make target runs the tests under tests/functional, which are higher level functional tests.
+These tests are written in Python, see [7] for details.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+System emulation
+Various machines are tested in the functional framework, have a look at the Testing/Machines page and the test sources to see which files are downloaded/used.
+We also have a collection of links to disk images which can be used to test system emulation.
+
+User mode emulation
+Here are some links to executables that can be used to test Linux user mode emulation:
+
+linux-user-busyboxes-0.1.tar.xz - Collection of static busybox binaries for almost all Linux target architectures that QEMU simulates. For quick smoke testing of Linux user mode emulation.
+It is also possible to run the Linux Test Project's syscall test suite under the Linux user mode emulation.
+
+Dynamic code analysis
+This includes any test to detect memory leaks, reads of uninitialised memory,
+buffer overflows or other forms of illegal memory access, that needs QEMU to be run, not merely compiled.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Valgrind
+Typically these kind of tests are done using Valgrind on a Linux host.
+Any of the disk images and executables listed above can be used in such tests.
+
+# Simple i386 boot test (BIOS only) with Valgrind.
+valgrind --leak-check=full --track-origins=yes --verbose qemu-system-i386
+
+clang UBSan
+The [clang undefined behavior sanitizer] can be used to warn about accidental uses of C undefined behavior when QEMU is run. To use it you first need to configure and build QEMU with a clang compiler with the right options:
+
+mkdir build/clang
+(cd build/clang && ../../configure --cc=clang --cxx=clang++ \
+   '--extra-cflags=-fsanitize=undefined -fno-sanitize=shift-base')
+make -C build/clang -j8
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+(The -fno-sanitize=shift-base is a workaround for [LLVM bug 25552] where it did not correctly suppress some shift-related warnings when -fwrapv was in use. If you're using a clang where that bug is fixed, likely 3.9 or better, you can drop it.)
+Then when you run the resulting QEMU binaries messages will be printed when UB is invoked:
+
+hw/core/loader.c:67:15: runtime error: null pointer passed as argument 1, which is declared to never be null
+
+See the clang documentation for more information including how to produce stack backtraces on errors.
+
+Static code analysis
+There are a number of tools which analyse C code and try to detect typical
+errors. None of these tools is perfect, so using different tools with QEMU
+will detect more bugs. Be prepared to also get lots of false warnings!
+
+ccc-analyzer (clang)
+This is an example used on Debian. It needs package clang.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+ccc-analyzer (clang)
+This is an example used on Debian. It needs package clang.
+
+# Start from the root directory with QEMU code.
+mkdir -f bin/debug/ccc-analyzer
+cd bin/debug/ccc-analyzer
+../../../configure --enable-debug --enable-trace-backend=stderr \
+     --cc=/usr/share/clang/scan-build/ccc-analyzer --disable-docs
+make
+
+
+
+smatch
+Here is a typical example using smatch (from git://repo.or.cz/smatch.git):
+
+# Start from the root directory with QEMU code.
+mkdir -f bin/debug/smatch
+cd bin/debug/smatch
+CHECK="smatch" ../../../configure --enable-debug --cc=cgcc --host-cc=cgcc
+make
+
+This example expects that smatch and cgcc are installed in your PATH
+(if not, you must add absolute paths to the example).
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Coverity
+Periodic scans of QEMU are done on the public Coverity Scan service (scan.coverity.com).  You can request access on their website, and the administrator will grant it if you are an active participant in QEMU development.
+Coverity is confused slightly by multiple definitions of functions with the same name. For this reason, Coverity scans are done as follows:
+
+mkdir cov-int
+./configure --audio-drv-list=oss,alsa,sdl,pa --disable-werror
+make libqemustub.a
+cov-build --dir cov-int make
+tar cvf - cov-int | xz > cov-int.tar.xz
+
+Notice that libqemustub.a is ignored by Coverity.  This is because some stubs call abort() and this causes dead-code false positives. The file cov-int.tar.xz can then be uploaded to Coverity Scan's "Submit build" page. Customarily, the "project version" is set to the output of git describe HEAD and the "description/tag" is set to "commit XYZ" where XYZ is the full SHA1 hash of the commit.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Avocado and Avocado-VT
+Avocado is a generic testing framework.
+Avocado-VT is the culmination of the old "virt-test" project (and previously known as KVM autotest) with a compatibility layer with to make it run under Avocado.  Avocado-VT adds extensive support for Virtualization testing, including first level support for testing QEMU.
+To get started with Avocado-VT please visit:
+
+http://avocado-vt.readthedocs.io
+https://github.com/avocado-framework/avocado-vt
+To learn more about Avocado please visit:
+
+http://avocado-framework.readthedocs.io
+https://github.com/avocado-framework/avocado
+
+After installing it, you can use Avocado-VT tests with your own build of QEMU:
+
+avocado run boot --vt-qemu-bin /path/to/qemu-system-x86_64
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+avocado run boot --vt-qemu-bin /path/to/qemu-system-x86_64
+
+Testing related meetings
+There's a regular meeting about QEMU testing automation, Avocado's role in that,
+CI efforts and related topics.
+The meetings will take place every Tuesday from 6:00 AM to 7:00 AM,
+(GMT-05:00) Eastern Time - New York.
+The meeting ID is 2282383352, and it can be used in any of the following
+ways to join the meeting:
+
+Using your browser: https://bluejeans.com/2282383352
+Using one of the apps: https://www.bluejeans.com/downloads
+Dialing to one of these numbers: https://www.bluejeans.com/numbers
+We have been using a public Trello board to keep track of the ongoing tasks:
+
+https://trello.com/b/6Qi1pxVn/avocado-qemu
+Meeting agenda, notes and meeting minutes are tracked at:
+
+https://public.etherpad-mozilla.org/p/AvocadoQEMU
+See Also
+gdb-qemu, a set of scripts that look for compatibility bugs by poking at QEMU internal data structures using GDB
+The following sub-pages exist:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Testing - QEMU
+CONTENT:
+Testing/Acceptance
+Testing/CCWTestDevice
+Testing/CI
+Testing/CI/CirrusCI
+Testing/CI/GitLabCI
+Testing/CI/Integrated
+Testing/CI/KubernetesRunners
+Testing/CI/Patchew
+Testing/CI/Shippable
+Testing/CI/TransientFailures
+Testing/CI/Travis
+Testing/CI/TroublesomeTests
+Testing/DockerBuild
+Testing/LAVA
+Testing/LTP
+Testing/Linaro/TCWG GNU QEMU Tests
+Testing/Machines
+Testing/QemuIoTests
+Testing/System Images
+Testing/Travis
+Testing/Windows
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Testing&oldid=12042"
+
+
+
+
+
+
+
+ This page was last edited on 17 December 2024, at 14:52.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+Links - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Contents
+		move to sidebar
+hide
+
+
+
+
+
+Beginning
+
+
+
+
+
+1Development
+
+
+
+
+
+
+
+2Developers
+
+
+
+
+
+
+
+3Unofficial QEMU binaries
+
+
+
+
+
+
+
+4Alternate QEMU repositories / Forks
+
+
+
+
+
+
+
+5GUIs and management tools/systems
+
+
+
+
+
+
+
+6Legacy GUI front ends
+
+
+
+
+
+
+
+7BIOSes and firmware used by QEMU
+
+
+
+
+
+
+
+8Projects using the QEMU code
+
+
+
+
+
+
+
+9Other emulators
+
+
+
+
+
+
+
+10Related links
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Toggle the table of contents
+					
+Links
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+
+Development
+Savannah project page
+QEMU patches from the mailing list
+IRC channel: #qemu on irc.oftc.net
+Developers
+A few blogs from developers are syndicated at Virt Tools Planet.  For enrolling a blog into the planet, please submit a patch to this file to Dan Berrange.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+Unofficial QEMU binaries
+Precompiled Windows versions (32 and 64 bit), provided by Stefan Weil
+Precompiled Windows versions (currently only up to 2.6.0), provided by Eric Lassauge
+Slackware packages
+Alternate QEMU repositories / Forks
+Openmoko (Neo1973) target
+Malc's GIT repository including audio improvements, an x86 interpreter (useful for MSDOS demos heavily using self modifying code), full A/V capture
+Android emulation - see also http://gsoc11-qemu-android.blogspot.de/
+AR7 routers, TCG interpreter (maintained by Stefan Weil)
+Motorola 680x0 (not coldfire — maintained by Laurent Vivier)
+PA-RISC target — early stages (needs linux-user rework for stack growing up)
+kqemu archive includes patches for the former acceleration module
+qemu-linaro - obsolete (but includes OMAP3 support)
+Blackfin target (maintained by Mike Frysinger)
+6502 CPU target
+AT91SAM9263 emulation
+Android Goldfish
+Android Ranchu
+Imagination META
+Macintosh 128k
+QEMU with Windbg stub
+GUIs and management tools/systems
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+Imagination META
+Macintosh 128k
+QEMU with Windbg stub
+GUIs and management tools/systems
+libvirt provides an API for managing QEMU/KVM (and other hypervisors) exposed in C, Perl, Python, OCaml, Ruby, and Java, with bridges to AMQP/QMF and DMTF CIM.
+virt-install, virt-clone, virt-convert a set of command line tools for provisioning new VMs from install media, existing VMs and appliances, respectively. See also 'virsh' command line shell with libvirt.
+virt-manager, Virtual Machine Manager. A graphical desktop management app using libvirt. Can manage a single local host, or securely multiple remote hosts. Support QEMU, KVM, Xen and more
+AQEMU GUI for QEMU and KVM (Linux), docs (German)
+Ganeti, a cluster virtual server management software tool built on top of existing virtualization technologies such as Xen or KVM and other Open Source software.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+qemu-java, a full Java API to QEmu's QApi, commandline image manipulation. This is a good foundation API for building integration testing systems, richer QEmu-based applications, and so forth.
+QtEmu, a graphical user interface for QEMU written in Qt5 for GNU/Linux, FreeBSD, Windows and MacOS
+Legacy GUI front ends
+These projects seem to be abandoned, thus these GUIs likely do not work with the latest version of QEMU anymore and the links are only provided here for historical reasons:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+qemudo, QEMU Web Interface
+JavaQemu, a GUI for QEMU written in Java
+BIOSes and firmware used by QEMU
+The PC BIOS from the Bochs IA-32 Emulator Project
+The LGPL VGA BIOS project
+The OpenBIOS project, an open source Open Firmware implementation
+The OpenHackWare (archived 2008-01-24) Open Firmware implementation
+SLOF, the Slimline Open Firmware, is used in QEMU for the "pseries" machine
+Etherboot images from ROM-o-matic
+The EFI BIOS comes from the TianoCore Project.
+OVMF provides UEFI support for IA32 (x86) and X64 (x86-64) guests.
+U-Boot, a firmware which is used for some PowerPC boards in QEMU
+Projects using the QEMU code
+The Xen virtual machine monitor
+KVM, Kernel-based Virtual Machine for Linux
+VirtualBox, an open source x86 virtualizer.
+SerialICE, a system software debugger
+MARSSx86, a cycle accurate accurate x86 simulator that uses QEMU
+Other emulators
+The Bochs IA-32 Emulator Project
+The EM86 x86 emulator on Alpha-Linux
+The bintrans Dynamic Binary Translator
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+The EM86 x86 emulator on Alpha-Linux
+The bintrans Dynamic Binary Translator
+MINDE, an emulator for some old x86 demos
+SkyEye, an ARM simulator
+Softgun, an ARM simulator
+SIMH, The Computer History Simulation Project
+GXemul, emulator for multiple systems including m88k
+ARAnyM, emulator for Atari ST/TT/Falcon family
+Hercules, S/370, S/390 and z/Arch emulator
+The PearPC PowerPC Architecture Emulator (development stalled)
+TME, The (Sun) Machine Emulator
+Related links
+Book "qemu-kvm & libvirt", 4. Edition 2010, ISBN 978-3-8370-0876-0, https://web.archive.org/web/20191029014310/http://qemu-buch.de/
+Valgrind, an open-source memory debugger for x86-GNU/Linux
+TLMu: TLMu - A SystemC TLM-2.0 integration of QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Links - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=Links&oldid=12059"
+
+
+
+
+
+
+
+ This page was last edited on 3 January 2025, at 17:37.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+Contribute/MailingLists - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contribute/MailingLists
+
+
+
+
+
+
+PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+(Redirected from MailingLists)
+QEMU developers mailing list
+QEMU stable mailing list
+QEMU trivial patch mailing list
+QEMU users mailing list
+Subsystem Specific Lists
+These exist to make it a little easier to follow subsystem specific patches. You should however continue to CC qemu-devel so your series gets wide visibility.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+QEMU ARM mailing list
+QEMU block devices mailing list
+QEMU PowerPC mailing list
+QEMU RISC-V mailing list
+QEMU s390x mailing list
+If a subsystem maintainer thinks that a new mailing list for their subsystem would make life easier, we're happy to create one -- mail qemu-devel to suggest it (ideally cc'ing the people listed as Savannah project admins in our AdminContacts page, as they are the ones with the ability to make the change).
+If you are a Savannah project admin, you may want the technical notes on how to create and configure a new list.
+
+Access via lore.kernel.org
+The qemu-devel mailing list is also archived via public-inbox on https://lore.kernel.org/qemu-devel/ and accessible via NNTP at nntp.lore.kernel.org (newsgroup org.nongnu.qemu-devel).
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Contribute/MailingLists&oldid=8666"
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Contribute/MailingLists - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=Contribute/MailingLists&oldid=8666"
+
+
+
+
+
+
+
+ This page was last edited on 20 June 2019, at 10:01.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Submitting a Patch — QEMU  documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            QEMU
+              
+
+
+
+
+
+
+
+
+
+Contents:
+
+About QEMU
+System Emulation
+User Mode Emulation
+Tools
+System Emulation Management and Interoperability
+System Emulation Guest Hardware Specifications
+Developer Information
+QEMU Community Processes
+Code of Conduct
+Conflict Resolution Policy
+The Role of Maintainers
+QEMU Coding Style
+Submitting a Patch
+Writing your Patches
+Submitting your Patches
+Retrieve an existing series
+Participating in Code Review
+Tips and Tricks
+
+
+Code provenance
+Trivial Patches
+QEMU and the stable process
+Submitting a Pull Request
+Secure Coding Practices
+Rust in QEMU
+
+
+QEMU Build System
+Testing QEMU
+Internal QEMU APIs
+Internal Subsystem Information
+TCG Emulation
+Codebase
+
+
+Glossary
+
+
+
+
+
+
+QEMU
+
+
+
+
+
+
+Developer Information
+QEMU Community Processes
+Submitting a Patch
+
+View page source
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Developer Information
+QEMU Community Processes
+Submitting a Patch
+
+View page source
+
+
+
+
+
+
+
+Submitting a Patch
+QEMU welcomes contributions to fix bugs, add functionality or improve
+the documentation. However, we get a lot of patches, and so we have
+some guidelines about submitting them. If you follow these, you’ll
+help make our task of contribution review easier and your change is
+likely to be accepted and committed faster.
+This page seems very long, so if you are only trying to post a quick
+one-shot fix, the bare minimum we ask is that:
+
+Minimal Checklist for Patches
+
+
+
+
+
+Check
+Reason
+
+
+
+Patches contain Signed-off-by: Your Name <author@email>
+States you are legally able to contribute the code. See Patch emails must include a Signed-off-by: line
+
+Sent as patch emails to qemu-devel@nongnu.org
+The project uses an email list based workflow. See Submitting your Patches
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Be prepared to respond to review comments
+Code that doesn’t pass review will not get merged. See Retrieve an existing series
+
+
+
+You do not have to subscribe to post (list policy is to reply-to-all to
+preserve CCs and keep non-subscribers in the loop on the threads they
+start), although you may find it easier as a subscriber to pick up good
+ideas from other posts. If you do subscribe, be prepared for a high
+volume of email, often over one thousand messages in a week. The list is
+moderated; first-time posts from an email address (whether or not you
+subscribed) may be subject to some delay while waiting for a moderator
+to allow your address.
+The larger your contribution is, or if you plan on becoming a long-term
+contributor, then the more important the rest of this page becomes.
+Reading the table of contents below should already give you an idea of
+the basic requirements. Use the table of contents as a reference, and
+read the parts that you have doubts about.
+
+Table of Contents
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Table of Contents
+
+Submitting a Patch
+
+Writing your Patches
+
+Use the QEMU coding style
+Base patches against current git master
+Split up long patches
+Make code motion patches easy to review
+Don’t include irrelevant changes
+Write a meaningful commit message
+Test your patches
+
+
+Submitting your Patches
+
+Use B4
+Use git-publish
+If you cannot send patch emails
+CC the relevant maintainer
+Do not send as an attachment
+Use git format-patch
+Avoid posting large binary blob
+Patch emails must include a Signed-off-by: line
+Include a meaningful cover letter
+Use the RFC tag if needed
+Consider whether your patch is applicable for stable
+
+
+Retrieve an existing series
+Participating in Code Review
+
+Stay around to fix problems raised in code review
+Pay attention to review comments
+When resending patches add a version tag
+Include version history in patchset revisions
+
+
+Tips and Tricks
+
+Proper use of Reviewed-by: tags can aid review
+If your patch seems to have been ignored
+Is my patch in?
+Return the favor
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Writing your Patches
+
+Use the QEMU coding style
+You can run run scripts/checkpatch.pl <patchfile> before submitting to
+check that you are in compliance with our coding standards. Be aware
+that checkpatch.pl is not infallible, though, especially where C
+preprocessor macros are involved; use some common sense too. See also:
+
+QEMU Coding Style
+Automate a checkpatch run on
+commit
+
+
+
+Base patches against current git master
+There’s no point submitting a patch which is based on a released version
+of QEMU because development will have moved on from then and it probably
+won’t even apply to master. We only apply selected bugfixes to release
+branches and then only as backports once the code has gone into master.
+It is also okay to base patches on top of other on-going work that is
+not yet part of the git master branch. To aid continuous integration
+tools, such as patchew, you should add a
+tag
+line Based-on: $MESSAGE_ID to your cover letter to make the series
+dependency obvious.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Split up long patches
+Split up longer patches into a patch series of logical code changes.
+Each change should compile and execute successfully. For instance, don’t
+add a file to the makefile in patch one and then add the file itself in
+patch two. (This rule is here so that people can later use tools like
+git bisect without hitting
+points in the commit history where QEMU doesn’t work for reasons
+unrelated to the bug they’re chasing.) Put documentation first, not
+last, so that someone reading the series can do a clean-room evaluation
+of the documentation, then validate that the code matched the
+documentation. A commit message that mentions “Also, …” is often a
+good candidate for splitting into multiple patches. For more thoughts on
+properly splitting patches and writing good commit messages, see this
+advice from
+OpenStack.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Make code motion patches easy to review
+If a series requires large blocks of code motion, there are tricks for
+making the refactoring easier to review. Split up the series so that
+semantic changes (or even function renames) are done in a separate patch
+from the raw code motion. Use a one-time setup of git config
+diff.renames true; git config diff.algorithm patience (refer to
+git-config). The ‘diff.renames’
+property ensures file rename patches will be given in a more compact
+representation that focuses only on the differences across the file
+rename, instead of showing the entire old file as a deletion and the new
+file as an insertion. Meanwhile, the ‘diff.algorithm’ property ensures
+that extracting a non-contiguous subset of one file into a new file, but
+where all extracted parts occur in the same order both before and after
+the patch, will reduce churn in trying to treat unrelated } lines in
+the original file as separating hunks of changes.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+the original file as separating hunks of changes.
+Ideally, a code motion patch can be reviewed by doing:
+git format-patch --stdout -1 > patch;
+diff -u <(sed -n 's/^-//p' patch) <(sed -n 's/^\+//p' patch)
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+to focus on the few changes that weren’t wholesale code motion.
+
+
+Don’t include irrelevant changes
+In particular, don’t include formatting, coding style or whitespace
+changes to bits of code that would otherwise not be touched by the
+patch. (It’s OK to fix coding style issues in the immediate area (few
+lines) of the lines you’re changing.) If you think a section of code
+really does need a reindent or other large-scale style fix, submit this
+as a separate patch which makes no semantic changes; don’t put it in the
+same patch as your bug fix.
+For smaller patches in less frequently changed areas of QEMU, consider
+using the Trivial Patches process.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Write a meaningful commit message
+Commit messages should be meaningful and should stand on their own as a
+historical record of why the changes you applied were necessary or
+useful.
+QEMU follows the usual standard for git commit messages: the first line
+(which becomes the email subject line) is “subsystem: single line
+summary of change”. Whether the “single line summary of change” starts
+with a capital is a matter of taste, but we prefer that the summary does
+not end in a dot. Look at git shortlog -30 for an idea of sample
+subject lines. Then there is a blank line and a more detailed
+description of the patch, another blank and your Signed-off-by: line.
+Please do not use lines that are longer than 76 characters in your
+commit message (so that the text still shows up nicely with “git show”
+in a 80-columns terminal window).
+The body of the commit message is a good place to document why your
+change is important. Don’t include comments like “This is a suggestion
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+change is important. Don’t include comments like “This is a suggestion
+for fixing this bug” (they can go below the --- line in the email so
+they don’t go into the final commit message). Make sure the body of the
+commit message can be read in isolation even if the reader’s mailer
+displays the subject line some distance apart (that is, a body that
+starts with “… so that” as a continuation of the subject line is
+harder to follow).
+If your patch fixes a commit that is already in the repository, please
+add an additional line with “Fixes: <at-least-12-digits-of-SHA-commit-id>
+(“Fixed commit subject”)” below the patch description / before your
+“Signed-off-by:” line in the commit message.
+If your patch fixes a bug in the gitlab bug tracker, please add a line
+with “Resolves: <URL-of-the-bug>” to the commit message, too. Gitlab can
+close bugs automatically once commits with the “Resolves:” keyword get
+merged into the master branch of the project. And if your patch addresses
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+merged into the master branch of the project. And if your patch addresses
+a bug in another public bug tracker, you can also use a line with
+“Buglink: <URL-of-the-bug>” for reference here, too.
+Example:
+Fixes: 14055ce53c2d ("s390x/tcg: avoid overflows in time2tod/tod2time")
+Resolves: https://gitlab.com/qemu-project/qemu/-/issues/42
+Buglink: https://bugs.launchpad.net/qemu/+bug/1804323``
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Some other tags that are used in commit messages include “Message-Id:”
+“Tested-by:”, “Acked-by:”, “Reported-by:”, “Suggested-by:”.  See git
+log for these keywords for example usage.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Test your patches
+Although QEMU uses various Continuous Integration (CI) services that attempt to test
+patches submitted to the list, it still saves everyone time if you
+have already tested that your patch compiles and works. Because QEMU
+is such a large project the default configuration won’t create a
+testing pipeline on GitLab when a branch is pushed. See the CI
+variable documentation for details on how to control the
+running of tests; but it is still wise to also check that your patches
+work with a full build before submitting a series, especially if your
+changes might have an unintended effect on other areas of the code you
+don’t normally experiment with. See Testing in QEMU for more details on
+what tests are available.
+Also, it is a wise idea to include a testsuite addition as part of
+your patches - either to ensure that future changes won’t regress your
+new feature, or to add a test which exposes the bug that the rest of
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+new feature, or to add a test which exposes the bug that the rest of
+your series fixes. Keeping separate commits for the test and the fix
+allows reviewers to rebase the test to occur first to prove it catches
+the problem, then again to place it last in the series so that
+bisection doesn’t land on a known-broken state.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Submitting your Patches
+The QEMU project uses a public email based workflow for reviewing and
+merging patches. As a result all contributions to QEMU must be sent
+as patches to the qemu-devel mailing list. Patch
+contributions should not be posted on the bug tracker, posted on
+forums, or externally hosted and linked to. (We have other mailing
+lists too, but all patches must go to qemu-devel, possibly with a Cc:
+to another list.) git send-email (step-by-step setup guide and hints and tips)
+works best for delivering the patch without mangling it, but
+attachments can be used as a last resort on a first-time submission.
+
+Use B4
+The b4 tool, used for Linux kernel development, can also be used for QEMU
+development. It is packaged in most distros and PyPi. The QEMU source tree
+includes a b4 project configuration file at the root: .b4-config.
+Example workflow to prepare a patch series:
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Start with a clean checkout of the master branch.
+Create a new series with a topical branch name using b4 prep -n descriptive-name.
+b4 will create a b4/descriptive-name branch and switch to it.
+Commit your changes, following this page’s guidelines about proper commit messages etc.
+Write a descriptive cover letter with b4 prep --edit-cover.
+Add maintainer and reviewer CCs with b4 prep --auto-to-cc. You can make
+changes to Cc: and To: recipients by editing the cover letter.
+Run patch checks with b4 prep --check.
+Optionally review the patches with b4 send --dry-run which will print the
+raw patches in standard output.
+
+To send the patches, you can:
+
+Setup git-send-email and use b4 send, or
+Export the patches to files using b4 send -o OUTPUT_DIR and send them manually.
+
+For more details, consult the b4 documentation.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+For more details, consult the b4 documentation.
+
+
+Use git-publish
+If you already configured git send-email, you can simply use git-publish to send series.
+$ git checkout master -b my-feature
+$ # work on new commits, add your 'Signed-off-by' lines to each
+$ git publish
+$ ... more work, rebase on master, ...
+$ git publish # will send a v2
+
+
+Each time you post a series, git-publish will create a local tag with the format
+<branchname>-v<version> to record the patch series.
+When sending patch emails, ‘git publish’ will consult the output of
+‘scripts/get_maintainers.pl’ and automatically CC anyone listed as maintainers
+of the affected code. Generally you should accept the suggested CC list, but
+there may sometimes be scenarios where it is appropriate to cut it down (eg on
+certain large tree-wide cleanups), or augment it with other interested people.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+If you cannot send patch emails
+In rare cases it may not be possible to send properly formatted patch
+emails. You can use sourcehut to send your
+patches to the QEMU mailing list by following these steps:
+
+Register or sign in to your account
+Add your SSH public key in meta |
+keys.
+Publish your git branch using git push git@git.sr.ht:~USERNAME/qemu
+HEAD
+Send your patches to the QEMU mailing list using the web-based
+git-send-email UI at https://git.sr.ht/~USERNAME/qemu/send-email
+
+Documentation for sourcehut is available here.
+
+
+CC the relevant maintainer
+Send patches both to the mailing list and CC the maintainer(s) of the
+files you are modifying. look in the MAINTAINERS file to find out who
+that is. Also try using scripts/get_maintainer.pl from the repository
+for learning the most common committers for the files you touched.
+Example:
+~/src/qemu/scripts/get_maintainer.pl -f hw/ide/core.c
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+In fact, you can automate this, via a one-time setup of git config
+sendemail.cccmd 'scripts/get_maintainer.pl --nogit-fallback' (Refer to
+git-config.)
+
+
+Do not send as an attachment
+Send patches inline so they are easy to reply to with review comments.
+Do not put patches in attachments.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Use git format-patch
+Use the right diff format.
+git format-patch will
+produce patch emails in the right format (check the documentation to
+find out how to drive it). You can then edit the cover letter before
+using git send-email to mail the files to the mailing list. (We
+recommend git send-email
+because mail clients often mangle patches by wrapping long lines or
+messing up whitespace. Some distributions do not include send-email in a
+default install of git; you may need to download additional packages,
+such as ‘git-email’ on Fedora-based systems.) Patch series need a cover
+letter, with shallow threading (all patches in the series are
+in-reply-to the cover letter, but not to each other); single unrelated
+patches do not need a cover letter (but if you do send a cover letter,
+use --numbered so the cover and the patch have distinct subject lines).
+Patches are easier to find if they start a new top-level thread, rather
+than being buried in-reply-to another existing thread.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Avoid posting large binary blob
+If you added binaries to the repository, consider producing the patch
+emails using git format-patch --no-binary and include a link to a
+git repository to fetch the original commit.
+
+
+Patch emails must include a Signed-off-by: line
+Your patches must include a Signed-off-by: line. This is a hard
+requirement because it’s how you say “I’m legally okay to contribute
+this and happy for it to go into QEMU”. For full guidance, read the
+Code provenance documentation.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Include a meaningful cover letter
+This is a requirement for any series with multiple patches (as it aids
+continuous integration), but optional for an isolated patch. The cover
+letter explains the overall goal of such a series, and also provides a
+convenient 0/N email for others to reply to the series as a whole. A
+one-time setup of git config format.coverletter auto (refer to
+git-config) will generate the
+cover letter as needed.
+When reviewers don’t know your goal at the start of their review, they
+may object to early changes that don’t make sense until the end of the
+series, because they do not have enough context yet at that point of
+their review. A series where the goal is unclear also risks a higher
+number of review-fix cycles because the reviewers haven’t bought into
+the idea yet. If the cover letter can explain these points to the
+reviewer, the process will be smoother patches will get merged faster.
+Make sure your cover letter includes a diffstat of changes made over the
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Make sure your cover letter includes a diffstat of changes made over the
+entire series; potential reviewers know what files they are interested
+in, and they need an easy way determine if your series touches them.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Use the RFC tag if needed
+For example, “[PATCH RFC v2]”. git format-patch --subject-prefix=RFC
+can help.
+“RFC” means “Request For Comments” and is a statement that you don’t
+intend for your patchset to be applied to master, but would like some
+review on it anyway. Reasons for doing this include:
+
+the patch depends on some pending kernel changes which haven’t yet
+been accepted, so the QEMU patch series is blocked until that
+dependency has been dealt with, but is worth reviewing anyway
+the patch set is not finished yet (perhaps it doesn’t cover all use
+cases or work with all targets) but you want early review of a major
+API change or design structure before continuing
+
+In general, since it’s asking other people to do review work on a
+patchset that the submitter themselves is saying shouldn’t be applied,
+it’s best to:
+
+use it sparingly
+in the cover letter, be clear about why a patch is an RFC, what areas
+of the patchset you’re looking for review on, and why reviewers
+should care
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Consider whether your patch is applicable for stable
+If your patch fixes a severe issue or a regression, it may be applicable
+for stable. In that case, consider adding Cc: qemu-stable@nongnu.org
+to your patch to notify the stable maintainers.
+For more details on how QEMU’s stable process works, refer to the
+QEMU and the stable process page.
+
+
+
+Retrieve an existing series
+If you want to apply an existing series on top of your tree, you can simply use
+b4.
+b4 shazam $msg-id
+
+
+The message id is related to the patch series that has been sent to the mailing
+list. You need to retrieve the “Message-Id:” header from one of the patches. Any
+of them can be used and b4 will apply the whole series.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Participating in Code Review
+All patches submitted to the QEMU project go through a code review
+process before they are accepted. This will often mean a series will
+go through a number of iterations before being picked up by
+maintainers. You therefore should be prepared to
+read replies to your messages and be willing to act on them.
+Maintainers are often willing to manually fix up first-time
+contributions, since there is a learning curve involved in making an
+ideal patch submission. However for the best results you should
+proactively respond to suggestions with changes or justifications for
+your current approach.
+Some areas of code that are well maintained may review patches
+quickly, lesser-loved areas of code may have a longer delay.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Stay around to fix problems raised in code review
+Not many patches get into QEMU straight away – it is quite common that
+developers will identify bugs, or suggest a cleaner approach, or even
+just point out code style issues or commit message typos. You’ll need to
+respond to these, and then send a second version of your patches with
+the issues fixed. This takes a little time and effort on your part, but
+if you don’t do it then your changes will never get into QEMU.
+Remember that a maintainer is under no obligation to take your
+patches. If someone has spent the time reviewing your code and
+suggesting improvements and you simply re-post without either
+addressing the comment directly or providing additional justification
+for the change then it becomes wasted effort. You cannot demand others
+merge and then fix up your code after the fact.
+When replying to comments on your patches reply to all and not just
+the sender – keeping discussion on the mailing list means everybody
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+the sender – keeping discussion on the mailing list means everybody
+can follow it. Remember the spirit of the Code of Conduct and
+keep discussions respectful and collaborative and avoid making
+personal comments.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Pay attention to review comments
+Someone took their time to review your work, and it pays to respect that
+effort; repeatedly submitting a series without addressing all comments
+from the previous round tends to alienate reviewers and stall your
+patch. Reviewers aren’t always perfect, so it is okay if you want to
+argue that your code was correct in the first place instead of blindly
+doing everything the reviewer asked. On the other hand, if someone
+pointed out a potential issue during review, then even if your code
+turns out to be correct, it’s probably a sign that you should improve
+your commit message and/or comments in the code explaining why the code
+is correct.
+If you fix issues that are raised during review resend the entire
+patch series not just the one patch that was changed. This allows
+maintainers to easily apply the fixed series without having to manually
+identify which patches are relevant. Send the new version as a complete
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+identify which patches are relevant. Send the new version as a complete
+fresh email or series of emails – don’t try to make it a followup to
+version 1. (This helps automatic patch email handling tools distinguish
+between v1 and v2 emails.)
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+When resending patches add a version tag
+All patches beyond the first version should include a version tag – for
+example, “[PATCH v2]”. This means people can easily identify whether
+they’re looking at the most recent version. (The first version of a
+patch need not say “v1”, just [PATCH] is sufficient.) For patch series,
+the version applies to the whole series – even if you only change one
+patch, you resend the entire series and mark it as “v2”. Don’t try to
+track versions of different patches in the series separately.  git
+format-patch and git
+send-email both understand
+the -v2 option to make this easier. Send each new revision as a new
+top-level thread, rather than burying it in-reply-to an earlier
+revision, as many reviewers are not looking inside deep threads for new
+patches.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Include version history in patchset revisions
+For later versions of patches, include a summary of changes from
+previous versions, but not in the commit message itself. In an email
+formatted as a git patch, the commit message is the part above the ---
+line, and this will go into the git changelog when the patch is
+committed. This part should be a self-contained description of what this
+version of the patch does, written to make sense to anybody who comes
+back to look at this commit in git in six months’ time. The part below
+the --- line and above the patch proper (git format-patch puts the
+diffstat here) is a good place to put remarks for people reading the
+patch email, and this is where the “changes since previous version”
+summary belongs. The git-publish script can help with
+tracking a good summary across versions. Also, the git-backport-diff script can help focus
+reviewers on what changed between revisions. The b4 tool automatically
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+reviewers on what changed between revisions. The b4 tool automatically
+generates a version history section in the cover letter, including links to the
+previous versions on Lore.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Tips and Tricks
+
+Proper use of Reviewed-by: tags can aid review
+When reviewing a large series, a reviewer can reply to some of the
+patches with a Reviewed-by tag, stating that they are happy with that
+patch in isolation (sometimes conditional on minor cleanup, like fixing
+whitespace, that doesn’t affect code content). You should then update
+those commit messages by hand to include the Reviewed-by tag, so that in
+the next revision, reviewers can spot which patches were already clean
+from the previous round. Conversely, if you significantly modify a patch
+that was previously reviewed, remove the reviewed-by tag out of the
+commit message, as well as listing the changes from the previous
+version, to make it easier to focus a reviewer’s attention to your
+changes.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+If your patch seems to have been ignored
+If your patchset has received no replies you should “ping” it after a
+week or two, by sending an email as a reply-to-all to the patch mail,
+including the word “ping” and ideally also a link to the page for the
+patch on patchew or
+lore.kernel.org. It’s worth
+double-checking for reasons why your patch might have been ignored
+(forgot to CC the maintainer? annoyed people by failing to respond to
+review comments on an earlier version?), but often for less-maintained
+areas of QEMU patches do just slip through the cracks. If your ping is
+also ignored, ping again after another week or so. As the submitter, you
+are the person with the most motivation to get your patch applied, so
+you have to be persistent.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Is my patch in?
+QEMU has some Continuous Integration machines that try to catch patch
+submission problems as soon as possible.  patchew includes a web interface for tracking the
+status of various threads that have been posted to the list, and may
+send you an automated mail if it detected a problem with your patch.
+Once your patch has had enough review on list, the maintainer for that
+area of code will send notification to the list that they are including
+your patch in a particular staging branch. Periodically, the maintainer
+then takes care of Submitting a Pull Request
+for aggregating topic branches into mainline QEMU. Generally, you do not
+need to send a pull request unless you have contributed enough patches
+to become a maintainer over a particular section of code. Maintainers
+may further modify your commit, by resolving simple merge conflicts or
+fixing minor typos pointed out during review, but will always add a
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+fixing minor typos pointed out during review, but will always add a
+Signed-off-by line in addition to yours, indicating that it went through
+their tree. Occasionally, the maintainer’s pull request may hit more
+difficult merge conflicts, where you may be requested to help rebase and
+resolve the problems. It may take a couple of weeks between when your
+patch first had a positive review to when it finally lands in qemu.git;
+release cycle freezes may extend that time even longer.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Submitting a Patch — QEMU  documentation
+CONTENT:
+Return the favor
+Peer review only works if everyone chips in a bit of review time. If
+everyone submitted more patches than they reviewed, we would have a
+patch backlog. A good goal is to try to review at least as many patches
+from others as what you submit. Don’t worry if you don’t know the code
+base as well as a maintainer; it’s perfectly fine to admit when your
+review is weak because you are unfamiliar with the code.
+
+
+
+
+
+
+ Previous
+Next 
+
+
+
+© Copyright 2025, The QEMU Project Developers.
+
+
+  Built with Sphinx using a
+    theme
+    provided by Read the Docs.
+  
+
+
+
+This documentation is for QEMU version 10.1.92.
+QEMU and this manual are released under the
+GNU General Public License, version 2.
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Talk:Main Page - QEMU
+CONTENT:
+Talk:Main Page - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+What links hereRelated changesSpecial pagesPrintable versionPermanent linkPage information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Talk:Main Page
+
+
+
+
+
+
+Main PageDiscussion
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Talk:Main Page - QEMU
+CONTENT:
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+ReadView sourceView history
+
+
+
+
+
+
+
+
+
+From QEMU
+
+I think it would be really neat to have a nice screenshot of QEMU running different types of interesting VMs on the main page.  We have to make sure we use guests that have reasonable screenshot licenses (iow, no Windows).  If anyone wants to upload ones, we could even rotate through a set of screen shots.
+--AnthonyLiguori 14:28, 1 February 2010 (UTC)
+Maybe it is a good advertising to write "Hosted by QEMU/KVM" (or so) on the home page. 
+--http://qemu-buch.de 06:43, 5 February 2010 (UTC)
+Why Qemu Accelerator modulo is now obsolete ?
+Will the 0.12 version support Qemu accelerator ?
+Those are appropriate questions for the mailing list or IRC.  Not the wiki talk page.
+--AnthonyLiguori 14:58, 21 June 2010 (UTC)
+
+
+
+
+
+Retrieved from "https://wiki.qemu.org/index.php?title=Talk:Main_Page&oldid=1704"
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Talk:Main Page - QEMU
+CONTENT:
+Retrieved from "https://wiki.qemu.org/index.php?title=Talk:Main_Page&oldid=1704"
+
+
+
+
+
+
+
+ This page was last edited on 17 August 2011, at 19:05.
+Content is available under GNU Free Documentation License 1.2.QEMU is a trademark of Fabrice Bellard.
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: Permission error - QEMU
+CONTENT:
+Permission error - QEMU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+Toggle sidebar
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Personal tools
+
+
+ Create account
+ Log in
+
+
+
+
+
+
+
+
+
+
+
+Link to website
+
+
+About QEMU
+
+
+
+
+Get
+
+
+DownloadLicense
+
+
+
+
+Contribute
+
+
+Start HereReport a BugReport a security issueSubmit a PatchMailing ListsTesting QEMU
+
+
+
+
+Learn
+
+
+DocumentationLinks
+
+
+
+
+Tools
+
+
+Special pagesPrintable version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Permission error
+
+
+
+
+
+
+
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+
+
+
+You do not have permission to create this user account, for the following reason:
+
+
+The action you have requested is limited to users in one of the groups: Users, Administrators.
+
+
+Retrieved from "https://wiki.qemu.org/Special:CreateAccount"
+
+
+
+
+
+
+
+
+
+About QEMU
+==================================================
+
+=== SOURCE: N/A ===
+TITLE: N/A
+CONTENT:
+https://www.mediawiki.org/wiki/Special:MyLanguage/APIfalseMediaWikihttps://www.mediawiki.org/https://wiki.qemu.org/Main_Page
+==================================================
+

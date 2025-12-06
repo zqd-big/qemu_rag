@@ -1,0 +1,12 @@
+langchain
+langchain-community
+chromadb
+sentence-transformers
+beautifulsoup4
+requests
+lxml
+gitpython
+streamlit
+tiktoken
+# For advanced scraping if needed
+html2text

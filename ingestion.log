@@ -1,0 +1,149 @@
+2025-12-06 21:25:34,857 - INFO - Starting FULL DEEP Ingestion. This will take a while...
+2025-12-06 21:25:34,858 - INFO - Loading Official Docs...
+2025-12-06 21:25:43,035 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/index-process.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,035 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/fsi.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,036 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/index.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,036 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/standard-vga.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,037 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/pci-ids.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,037 - WARNING - Unable to load https://www.qemu.org/docs/master/system/mux-chardev.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,038 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/vhost-user-gpu.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,039 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/tpm.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,039 - WARNING - Unable to load https://www.qemu.org/docs/master/glossary.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,039 - WARNING - Unable to load https://www.qemu.org/docs/master/_static/css/theme.css?v=f5127f15. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,040 - WARNING - Unable to load https://www.qemu.org/docs/master/about/emulation.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,040 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/bitmaps.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,045 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/nbd.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,046 - WARNING - Unable to load https://www.qemu.org/docs/master/system/barrier.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,046 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/barrier.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,047 - WARNING - Unable to load https://www.qemu.org/docs/master/system/confidential-guest-support.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,048 - WARNING - Unable to load https://www.qemu.org/docs/master/search.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,049 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/acpi_cpu_hotplug.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,049 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/index-internals.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,049 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/vfio-user.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,050 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/acpi_erst.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,050 - WARNING - Unable to load https://www.qemu.org/docs/master/system/secrets.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,050 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/codebase.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,051 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/qemu-storage-daemon-qmp-ref.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,052 - WARNING - Unable to load https://www.qemu.org/docs/master/system/virtio-net-failover.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,052 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/aspeed-intc.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,052 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/live-block-operations.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,946 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/style.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,946 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/submitting-a-patch.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,947 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/qom.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:43,948 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/tcg.html. Received error Cannot connect to host www.qemu.org:443 ssl:default [指定的网络名格式无效。] of type ClientConnectorError
+2025-12-06 21:25:55,227 - WARNING - Unable to load https://www.qemu.org/linux/pdfs/KVM_Virtualized_IO_Performance_Paper.pdf. Received error Received HTTP status 404 of type ValueError
+2025-12-06 21:25:55,230 - WARNING - Unable to load https://www.qemu.org/docs/master/interop/qemu-qmp-ref.html. Received error  of type TimeoutError
+2025-12-06 21:25:56,612 - WARNING - Unable to load https://www.qemu.org/docs/master/system/:1234. Received error Received HTTP status 404 of type ValueError
+2025-12-06 21:25:56,630 - WARNING - Unable to load https://www.qemu.org/docs/master/system/:4444,server=on. Received error Received HTTP status 404 of type ValueError
+2025-12-06 21:25:57,021 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-riscv.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,024 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-m68k.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,025 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-sparc64.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,025 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-mips.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,026 - WARNING - Unable to load https://www.qemu.org/docs/master/specs/ppc-spapr-uv-hcalls.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,026 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-arm.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,026 - WARNING - Unable to load https://www.qemu.org/docs/master/system/ppc/pseries.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,026 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-ppc.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,027 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-xtensa.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,027 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-sparc.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,027 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-i386.html. Received error  of type TimeoutError
+2025-12-06 21:25:57,028 - WARNING - Unable to load https://www.qemu.org/docs/master/system/target-loongarch.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,420 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/testing/functional.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,420 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/build-system.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,421 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/qapi-domain.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,421 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/rust.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,421 - WARNING - Unable to load https://www.qemu.org/docs/master/system/i386/xen.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,422 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/qapi-code-gen.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,422 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/testing/qtest.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,422 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/qapi-domain.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,422 - WARNING - Unable to load https://www.qemu.org/docs/master/system/arm/cpu-features.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,423 - WARNING - Unable to load https://www.qemu.org/docs/master/system/arm/nuvoton.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,423 - WARNING - Unable to load https://www.qemu.org/docs/master/devel/testing/main.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,424 - WARNING - Unable to load https://www.qemu.org/docs/master/system/arm/sabrelite.html. Received error  of type TimeoutError
+2025-12-06 21:26:01,424 - WARNING - Unable to load https://www.qemu.org/docs/master/system/devices/virtio/virtio-gpu.html. Received error  of type TimeoutError
+2025-12-06 21:26:05,313 - WARNING - Unable to load https://www.qemu.org/docs/master/system/qemu-block-drivers.html. Received error  of type TimeoutError
+2025-12-06 21:26:05,416 - INFO - Adding 3360 chunks from OfficialDocs to Vector DB...
+2025-12-06 21:26:05,418 - INFO - Use pytorch device_name: cpu
+2025-12-06 21:26:05,418 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-12-06 21:26:09,977 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-06 21:26:29,993 - INFO - Added batch 1/34
+2025-12-06 21:26:52,399 - INFO - Added batch 2/34
+2025-12-06 21:27:11,674 - INFO - Added batch 3/34
+2025-12-06 21:27:35,325 - INFO - Added batch 4/34
+2025-12-06 21:27:54,104 - INFO - Added batch 5/34
+2025-12-06 21:28:11,258 - INFO - Added batch 6/34
+2025-12-06 21:28:31,435 - INFO - Added batch 7/34
+2025-12-06 21:28:52,996 - INFO - Added batch 8/34
+2025-12-06 21:29:11,821 - INFO - Added batch 9/34
+2025-12-06 21:29:34,032 - INFO - Added batch 10/34
+2025-12-06 21:29:55,535 - INFO - Added batch 11/34
+2025-12-06 21:30:20,134 - INFO - Added batch 12/34
+2025-12-06 21:30:40,768 - INFO - Added batch 13/34
+2025-12-06 21:30:58,912 - INFO - Added batch 14/34
+2025-12-06 21:31:22,113 - INFO - Added batch 15/34
+2025-12-06 21:31:40,757 - INFO - Added batch 16/34
+2025-12-06 21:31:58,025 - INFO - Added batch 17/34
+2025-12-06 21:32:15,678 - INFO - Added batch 18/34
+2025-12-06 21:32:35,339 - INFO - Added batch 19/34
+2025-12-06 21:32:51,339 - INFO - Added batch 20/34
+2025-12-06 21:33:13,072 - INFO - Added batch 21/34
+2025-12-06 21:33:32,300 - INFO - Added batch 22/34
+2025-12-06 21:33:49,969 - INFO - Added batch 23/34
+2025-12-06 21:34:08,447 - INFO - Added batch 24/34
+2025-12-06 21:34:26,422 - INFO - Added batch 25/34
+2025-12-06 21:34:44,573 - INFO - Added batch 26/34
+2025-12-06 21:35:03,367 - INFO - Added batch 27/34
+2025-12-06 21:35:25,414 - INFO - Added batch 28/34
+2025-12-06 21:35:44,320 - INFO - Added batch 29/34
+2025-12-06 21:36:06,254 - INFO - Added batch 30/34
+2025-12-06 21:36:24,280 - INFO - Added batch 31/34
+2025-12-06 21:36:45,137 - INFO - Added batch 32/34
+2025-12-06 21:37:02,880 - INFO - Added batch 33/34
+2025-12-06 21:37:13,601 - INFO - Added batch 34/34
+2025-12-06 21:37:13,654 - INFO - Loading QEMU Wiki...
+2025-12-06 21:37:16,180 - WARNING - Unable to load https://wiki.qemu.org/Special:RecentChangesLinked/Main_Page. Received error Received HTTP status 404 of type ValueError
+2025-12-06 21:37:17,970 - INFO - Adding 132 chunks from Wiki to Vector DB...
+2025-12-06 21:37:17,972 - INFO - Use pytorch device_name: cpu
+2025-12-06 21:37:17,972 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-12-06 21:37:37,460 - INFO - Added batch 1/2
+2025-12-06 21:37:42,242 - INFO - Added batch 2/2
+2025-12-06 21:37:42,242 - INFO - Deep Scraping StackOverflow (50 pages)...
+2025-12-06 22:13:47,193 - INFO - Adding 3335 chunks from StackOverflow_Deep to Vector DB...
+2025-12-06 22:13:47,196 - INFO - Use pytorch device_name: cpu
+2025-12-06 22:13:47,196 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2025-12-06 22:14:10,608 - INFO - Added batch 1/34
+2025-12-06 22:14:30,458 - INFO - Added batch 2/34
+2025-12-06 22:14:49,831 - INFO - Added batch 3/34
+2025-12-06 22:15:09,921 - INFO - Added batch 4/34
+2025-12-06 22:15:28,576 - INFO - Added batch 5/34
+2025-12-06 22:15:49,736 - INFO - Added batch 6/34
+2025-12-06 22:16:08,056 - INFO - Added batch 7/34
+2025-12-06 22:16:26,763 - INFO - Added batch 8/34
+2025-12-06 22:16:43,331 - INFO - Added batch 9/34
+2025-12-06 22:17:02,275 - INFO - Added batch 10/34
+2025-12-06 22:17:18,356 - INFO - Added batch 11/34
+2025-12-06 22:17:38,136 - INFO - Added batch 12/34
+2025-12-06 22:17:56,912 - INFO - Added batch 13/34
+2025-12-06 22:18:14,895 - INFO - Added batch 14/34
+2025-12-06 22:18:33,521 - INFO - Added batch 15/34
+2025-12-06 22:18:51,596 - INFO - Added batch 16/34
+2025-12-06 22:19:13,174 - INFO - Added batch 17/34
+2025-12-06 22:19:31,061 - INFO - Added batch 18/34
+2025-12-06 22:19:47,287 - INFO - Added batch 19/34
+2025-12-06 22:20:07,841 - INFO - Added batch 20/34
+2025-12-06 22:20:25,956 - INFO - Added batch 21/34
+2025-12-06 22:20:45,083 - INFO - Added batch 22/34
+2025-12-06 22:21:04,575 - INFO - Added batch 23/34
+2025-12-06 22:21:24,242 - INFO - Added batch 24/34
+2025-12-06 22:21:40,195 - INFO - Added batch 25/34
+2025-12-06 22:21:57,340 - INFO - Added batch 26/34
+2025-12-06 22:22:16,297 - INFO - Added batch 27/34
+2025-12-06 22:22:34,933 - INFO - Added batch 28/34
+2025-12-06 22:22:53,286 - INFO - Added batch 29/34
+2025-12-06 22:23:12,651 - INFO - Added batch 30/34
+2025-12-06 22:23:31,700 - INFO - Added batch 31/34
+2025-12-06 22:23:51,452 - INFO - Added batch 32/34
+2025-12-06 22:24:10,741 - INFO - Added batch 33/34
+2025-12-06 22:24:18,682 - INFO - Added batch 34/34
+2025-12-06 22:24:18,684 - INFO - Deep Scraping Mailing List (100 threads)...
+2025-12-06 22:24:20,020 - INFO - No documents to add for MailingList_Deep
+2025-12-06 22:24:20,020 - INFO - Full Ingestion Complete.
